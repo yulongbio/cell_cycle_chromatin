@@ -1,7 +1,7 @@
-## Overview.  
+## Overview 
 Code for the cell cycle chromatin paper. Relevant data sets are under `Data` directory. Codes are under `Scripts` directory.  
 
-## Scripts usaga.   
+## Scripts usaga  
 `rna_tpm.R`: combine RNA-seq datasets of corresponding time points between replicates and calculate the TPM of each gene.  
 `sample_bam_by_fragment.R`: sample bam files to obtain equal fragment number among samples for each fragment size. The sampled data are stored as GenomicRange objects and used for downstream analysis.  
 `nucleosome_score.R`: calculate the whole-genome nucleosome scores for a sample using its GenomicRange object produced by `sample_bam_by_fragment.R`.  
